@@ -6,7 +6,7 @@ const PROXY_SOURCES = [
     'https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks5.txt',
     'https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks4.txt'
 ];
-const PROXY_FILE = path.join(__dirname, 'proxies.txt');
+const PROXY_FILE = path.join(__dirname, 'proxy.txt');
 const UPDATE_INTERVAL = 12 * 60 * 60 * 1000;
 
 async function fetchProxies() {
